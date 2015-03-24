@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <h1>Product Information</h1>
+    <div style="padding: 20px; border: solid medium black; font-size:20pt">
+        @*The contents of the view file are rendered when the RenderBody() method is called.
+        THis would place the content of the view in the div sections.
+        The use of layouts allows for constitent look but different information.*@
+        @RenderBody()
+    </div>
+    <footer>
+        <sub><a href="http://www.apress.com">Appress</a></sub>
+    </footer>  
+</body>
+</html>
