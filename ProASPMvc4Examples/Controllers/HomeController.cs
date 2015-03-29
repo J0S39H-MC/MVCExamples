@@ -9,7 +9,7 @@ namespace Razor.Controllers
 {
   public class HomeController : Controller
   {
-    Product myProduct = new Product { Name = "Biscuits", Categoty = "Food", Description = string.Empty, Price = 4.99m, ProductID = 1 };
+    Product myProduct = new Product { Name = "Biscuits", Category = "Food", Description = string.Empty, Price = 4.99m, ProductID = 1 };
 
     // GET: Home
     public ActionResult Index()
